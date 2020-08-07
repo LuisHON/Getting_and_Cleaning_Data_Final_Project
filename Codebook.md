@@ -11,10 +11,6 @@ The `run_analysis.R` firstly load two packages for easy data manipulation **dply
 
 After that, begins to collect the needed information to store in each variable and build the right _dataframe_ to work with, as required by the CourseProject definitions.
 
-
-> *Every column is variable.* ^[_Tidy Data, by Hadley Wickham. Journal of Statistical Software_]
-
-
 1. **Variables**<p>
      These are the transformations i've made with the original variables.
      
@@ -43,8 +39,6 @@ After that, begins to collect the needed information to store in each variable a
      Contains the training data activities code labels
 
 _____
-> *Each observation forms a row.* ^[_Ibid_]
-
 
 2. **Gathering the colected data and Making the first complete Dataset**
 
@@ -59,8 +53,6 @@ _____
    - `FirstDataSet` is created by merging `SubjectCombined`, `Ydf` and `Xdf` using **cbind()** function [10299 rows, 563 column]
 
 _____
-> *Each type of observational unit forms a table.* ^[_Ibid_]
-
 
 3. **Extracting only the Average and Standard Deviation for each measurement**
 
